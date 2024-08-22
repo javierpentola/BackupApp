@@ -1,23 +1,16 @@
-**Descripción para GitHub:**
 
-**Backup App**
+Backup App is a simple web application that allows you to manage and create backups of projects on a server. The application is developed in PHP with MySQL as the database, and it uses the NES.css library to give it a retro design touch.
 
-**Descripción:**
-Backup App es una aplicación web sencilla que permite gestionar y crear backups de proyectos en un servidor. La aplicación está desarrollada en PHP con MySQL como base de datos, y utiliza la librería NES.css para darle un toque retro al diseño.
+- Save project information along with comments and paths in the database.
+- Compress the contents of a project into a ZIP file and store it in a specific folder.
+- List all backups made with options to download them.
+- Automatically delete old backups when a defined limit is exceeded.
+- Retro design using the NES.css library.
 
-**Características:**
 
-- Guardar información de proyectos junto con comentarios y rutas en la base de datos.
-- Comprimir el contenido de un proyecto en un archivo ZIP y almacenarlo en una carpeta específica.
-- Listar todos los backups realizados con opciones para descargarlos.
-- Eliminar backups antiguos automáticamente cuando se excede un límite definido.
-- Diseño retro utilizando la librería NES.css.
-
-**Cómo usar:**
-
-1. Clona el repositorio en tu servidor local.
-2. Asegúrate de tener configurado un servidor web con PHP y MySQL.
-3. Crea una base de datos MySQL y ejecuta el script SQL incluido para crear la tabla de backups.
-4. Configura las credenciales de tu base de datos en el archivo PHP.
-5. Utiliza `npm install nes.css` para instalar la librería de estilos NES.css o descarga el CSS desde el CDN proporcionado.
-6. Accede a la aplicación desde tu navegador, añade la ruta de un proyecto, comentarios y realiza el backup.
+1. Clone the repository to your local server.
+2. Make sure you have a web server configured with PHP and MySQL.
+3. Create a MySQL database and run the included SQL script to create the backups table.
+4. Configure your database credentials in the PHP file.
+5. Use `npm install nes.css` to install the NES.css style library or download the CSS from the provided CDN.
+6. Access the application from your browser, add the path of a project, comments, and perform the backup.
